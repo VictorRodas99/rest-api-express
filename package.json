@@ -1,0 +1,20 @@
+{
+  "name": "express-mysql-apirest",
+  "version": "1.0.0",
+  "description": "A little project that will cover up mysql stuff through a basic API-RESTusing expressJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
